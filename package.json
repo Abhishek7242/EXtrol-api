@@ -4,14 +4,13 @@
   "description": "API for Extrol petrol expense manager (Express + MongoDB + Mongoose)",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "start": "node src/server.js",
+  "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
